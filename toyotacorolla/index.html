@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 Toyota Corolla | Reliable & Efficient Sedan</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            background-color: #e31937; /* Toyota Red */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .hero {
+            position: relative;
+            height: 500px;
+            background-image: url('img/torotacorollabackgroundimage.jpg');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 30px;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 20px;
+        }
+        
+        .specs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .spec-card {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .spec-card h3 {
+            color: #e31937; /* Toyota Red */
+            margin-top: 0;
+        }
+        
+        .highlight {
+            color: #002d5f; /* Toyota Blue */
+            font-weight: bold;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #e31937; /* Toyota Red */
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #c0102a;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .specs {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>2023 Toyota Corolla</h1>
+            <p>Legendary Reliability Meets Modern Style</p>
+        </div>
+    </header>
+    
+    <div class="hero">
+        <div class="hero-overlay container">
+            <h2>Built for the Road Ahead</h2>
+            <p>Sleek design, impressive fuel economy, and Toyota Safety Sense™</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="specs">
+            <div class="spec-card">
+                <h3>Efficient Performance</h3>
+                <p><span class="highlight">2.0L 4-cylinder</span> (169 HP)</p>
+                <p><span class="highlight">Hybrid option</span> (53 MPG combined)</p>
+                <p>CVT or 6-speed manual (SE)</p>
+            </div>
+            <div class="spec-card">
+                <h3>Toyota Safety Sense™ 2.0</h3>
+                <p>Standard <span class="highlight">Pre-Collision System</span></p>
+                <p>Lane Departure Alert</p>
+                <p>Adaptive Cruise Control</p>
+            </div>
+            <div class="spec-card">
+                <h3>Modern Technology</h3>
+                <p>8-inch touchscreen</p>
+                <p>Wireless Apple CarPlay®</p>
+                <p>Available JBL® premium audio</p>
+            </div>
+        </div>
+        
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="img/toyotacorollaexterior.jpg" alt="Corolla Exterior">
+            <img src="img/toyotacorollainterior.jpg" alt="Corolla Interior">
+            <img src="img/toyotacorollahybrid.jpg" alt="Corolla Hybrid">
+        </div>
+        <a href="#contact" class="cta-button">Buy Me</a>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Toyota Motors. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

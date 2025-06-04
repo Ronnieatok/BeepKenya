@@ -1,0 +1,471 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+BeepKenya
+</title>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<style>
+body {
+	font-family: 'Playfair Display', serif;
+	}
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+	<!-- Header / Navbar -->
+	<header class="bg-white shadow-md fixed w-full z-30">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<div class="flex justify-between items-center h-16">
+	<a class="flex items-center space-x-2" href="#">
+	<img alt="ExoticCars254 logo, stylized letters KC in red and black" class="h-50 w-50" height="70" src="img/exotic cars.png" width="70"/>
+	<span class="text-2xl font-bold text-red-600">
+		BeepKenya
+	</span>
+	</a>
+		<nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
+		<a class="hover:text-red-600 transition" href="#home">
+		Home
+		</a>
+		<a class="hover:text-red-600 transition" href="#inventory">
+		Inventory
+		</a>
+		<a class="hover:text-red-600 transition" href="#sell">
+		Sell Your Car
+		</a>
+		<a class="hover:text-red-600 transition" href="#about">
+		About Us
+		</a>
+		<a class="hover:text-red-600 transition" href="#contact">
+		Contact
+		</a>
+		</nav>
+		<div class="md:hidden">
+		<button aria-label="Toggle menu" class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600" id="menu-btn">
+		<i class="fas fa-bars fa-lg">
+		</i>
+		</button>
+		</div>
+		</div>
+	</div>
+	<!-- Mobile menu -->
+	<nav class="hidden md:hidden bg-white border-t border-gray-200" id="mobile-menu">
+		<a class="block px-4 py-3 border-b border-gray-200 hover:bg-red-50 text-gray-700 font-semibold" href="#home">
+		Home
+		</a>
+		<a class="block px-4 py-3 border-b border-gray-200 hover:bg-red-50 text-gray-700 font-semibold" href="#inventory">
+		Inventory
+		</a>
+		<a class="block px-4 py-3 border-b border-gray-200 hover:bg-red-50 text-gray-700 font-semibold" href="#sell">
+		Sell Your Car
+		</a>
+		<a class="block px-4 py-3 border-b border-gray-200 hover:bg-red-50 text-gray-700 font-semibold" href="#about">
+		About Us
+		</a>
+		<a class="block px-4 py-3 hover:bg-red-50 text-gray-700 font-semibold" href="#contact">
+		Contact
+		</a>
+	</nav>
+	</header>
+	<main class="pt-20">
+	<!-- Hero Section -->
+	<section aria-label="Hero section with Kenyan cars and call to action" class="relative bg-white overflow-hidden" id="home">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<div class="lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center py-16">
+		<div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+		<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+			Find Your Perfect Car in Kenya
+		</h1>
+		<p class="mt-4 text-lg leading-6 text-gray-600">
+			Browse thousands of quality used and new cars from trusted sellers across Kenya. Buy or sell your car with confidence.
+		</p>
+		<div class="mt-6 flex justify-center lg:justify-start space-x-4">
+			<a class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500" href="#inventory">
+			Browse Inventory
+			</a>
+			<a class="inline-flex items-center px-6 py-3 border border-red-600 text-base font-medium rounded-md text-red-600 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500" href="#sell">
+			Sell Your Car
+			</a>
+		</div>
+		</div>
+		<div class="mt-10 relative lg:mt-0 lg:col-span-6">
+		<img alt="background" height="400" loading="lazy" src="img/background.jpg" width="600"/>
+		</div>
+		</div>
+		</div>
+	</section>
+	<!-- Inventory Section -->
+<section aria-label="Car inventory listing" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="inventory">
+    <h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+        Available Cars for Sale
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!-- Toyota Prado -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="toyotaprado/index.html" class="block">
+                <img alt="White 2018 Toyota Prado SUV parked on a dusty Kenyan savannah road with acacia trees in the background" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/toyotaprado2018.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Toyota Prado 2024
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        White SUV, 150,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 10,500,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Honda Civic -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="hondacivic/index.html" class="block">
+                <img alt="Silver 2017 Honda Civic sedan parked in an urban Kenyan setting with modern buildings" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/hondacivic.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Honda Civic 2022
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        Silver Sedan, 90,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 2,800,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Isuzu D-Max -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="isuzudmax/index.html" class="block">
+                <img alt="Blue 2019 Isuzu D-Max pickup truck parked on a rural Kenyan dirt road with hills in the background" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/isuzudmax2019.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Isuzu D-Max 2023
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        Blue Pickup, 70,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 7,200,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Subaru Outback -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="subaruoutback/index.html" class="block">
+                <img alt="Grey 2016 Subaru Outback wagon parked near a Kenyan national park entrance with wildlife signs" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/subaruoutback2016.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Subaru Outback 2023
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        Grey Wagon, 120,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 6,500,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Mazda CX-5 -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="mazdacx5/index.html" class="block">
+                <img alt="Red 2020 Mazda CX-5 SUV parked on a paved road with Nairobi city skyline in the background" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/Mazdacx52020.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Mazda CX-5 2024
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        Red SUV, 40,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 5,000,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Toyota Corolla -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="toyotacorolla/index.html" class="block">
+                <img alt="White 2015 Toyota Corolla sedan parked in a Kenyan residential neighborhood with trees" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/toyotacorolla2015.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Toyota Corolla 2023
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        White Sedan, 110,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 3,200,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <!-- Ford Ranger -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <a href="fordranger/index.html" class="block">
+                <img alt="Black 2018 Ford Ranger pickup truck parked on a Kenyan highway with mountains in the distance" class="w-full h-48 object-cover" height="250" loading="lazy" src="img/fordranger2018.jpg" width="400"/>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        Ford Ranger 2022
+                    </h3>
+                    <p class="text-gray-600 mt-1">
+                        Black Pickup, 85,000 km
+                    </p>
+                    <p class="text-red-600 font-bold mt-2">
+                        KES 6,500,000
+                    </p>
+                    <div class="mt-4 w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 text-center">
+                        View Details
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+</section>
+	<!-- Sell Your Car Section -->
+	<section aria-label="Sell your car form section" class="bg-white py-16" id="sell">
+		<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+		<h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+		Sell Your Car
+		</h2>
+		<form class="space-y-6 bg-gray-50 p-8 rounded-lg shadow-md" id="sell-car-form" novalidate="">
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="name">
+			Full Name
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="name" name="name" placeholder="Ronnie Atok" required="" type="text"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="email">
+			Email Address
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="email" name="email" placeholder="ronnie@example.com" required="" type="email"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="phone">
+			Phone Number
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="phone" name="phone" pattern="^\+?254\d{9}$" placeholder="+254705902590" required="" type="tel"/>
+		<p class="text-xs text-gray-500 mt-1">
+			Format: +2547XXXXXXXX
+		</p>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="car-make">
+			Car Make
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="car-make" name="car-make" placeholder="Toyota" required="" type="text"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="car-model">
+			Car Model
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="car-model" name="car-model" placeholder="Prado" required="" type="text"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="year">
+			Year
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="year" max="2024" min="1980" name="year" placeholder="2018" required="" type="number"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="price">
+			Expected Price (KES)
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="price" min="10000" name="price" placeholder="3500000" required="" type="number"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="description">
+			Additional Details
+		</label>
+		<textarea class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="description" name="description" placeholder="Condition, mileage, location, etc." rows="4"></textarea>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="car-image">
+			Upload Car Image
+		</label>
+		<input accept="image/*" class="mt-1 block w-full text-gray-700" id="car-image" name="car-image" type="file"/>
+		</div>
+		<div>
+		<button class="w-full bg-red-600 text-white py-3 rounded-md text-lg font-semibold hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500" type="submit">
+			Submit Listing
+		</button>
+		</div>
+		<p class="text-center text-green-600 font-semibold hidden" id="form-message">
+		</p>
+		</form>
+		</div>
+	</section>
+	<!-- About Us Section -->
+	<section aria-label="About KenyaCars company" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="about">
+		<h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+		About BeepKenya
+		</h2>
+		<div class="max-w-4xl mx-auto text-center text-gray-700 space-y-6">
+		<p>
+			BeepKenya is Kenya's premier online marketplace for buying and selling cars. We connect buyers and sellers across the country, offering a wide range of vehicles from trusted dealers and private owners.
+		</p>
+		<p>
+		Our mission is to make car buying and selling simple, transparent, and secure for everyone. Whether you're looking for a family SUV, a reliable sedan, or a rugged pickup, BeepKenya has you covered.
+		</p>
+		<p>
+		Founded in Nairobi, we understand the unique needs of Kenyan drivers and strive to provide the best service possible.
+		</p>
+		</div>
+	</section>
+	<!-- Contact Section -->
+	<section aria-label="Contact BeepKenya" class="bg-white py-16" id="contact">
+		<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+		<h2 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+		Contact Us
+		</h2>
+		<form class="space-y-6 bg-gray-50 p-8 rounded-lg shadow-md" id="contact-form" novalidate="">
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="contact-name">
+			Full Name
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="contact-name" name="contact-name" placeholder="Isaura Apuyo" required="" type="text"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="contact-email">
+			Email Address
+		</label>
+		<input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="contact-email" name="contact-email" placeholder="isaura@example.com" required="" type="email"/>
+		</div>
+		<div>
+		<label class="block text-sm font-medium text-gray-700" for="contact-message">
+			Message
+		</label>
+		<textarea class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-600 focus:ring-red-600" id="contact-message" name="contact-message" placeholder="Your message here..." required="" rows="4"></textarea>
+		</div>
+		<div>
+		<button class="w-full bg-red-600 text-white py-3 rounded-md text-lg font-semibold hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500" type="submit">
+			Send Message
+		</button>
+		</div>
+		<p class="text-center text-green-600 font-semibold hidden" id="contact-message-status">
+		</p>
+		</form>
+		</div>
+	</section>
+	</main>
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-gray-300 py-8">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+		<p class="text-sm">
+		© 2025    BeepKenya. All rights reserved.
+		</p>
+		<div class="flex space-x-6 mt-4 md:mt-0">
+		<a aria-label="Facebook" class="hover:text-red-600 " href="#">
+		<i class="fab fa-facebook fa-lg">
+		</i>
+		</a>
+		<a aria-label="Twitter" class="hover:text-red-600 " href="#">
+		<i class="fab fa-twitter fa-lg">
+		</i>
+		</a>
+		<a aria-label="Instagram" class="hover:text-red-600 " href="#">
+		<i class="fab fa-instagram fa-lg">
+		</i>
+		</a>
+		<a aria-label="LinkedIn" class="hover:text-red-600 " href="#">
+		<i class="fab fa-linkedin fa-lg">
+		</i>
+		</a>
+		</div>
+	</div>
+	</footer>
+	<script>
+	// Mobile menu toggle
+		const menuBtn = document.getElementById('menu-btn');
+		const mobileMenu = document.getElementById('mobile-menu');
+
+		menuBtn.addEventListener('click', () => {
+		mobileMenu.classList.toggle('hidden');
+		});
+
+		// Sell car form submission simulation
+		const sellCarForm = document.getElementById('sell-car-form');
+		const formMessage = document.getElementById('form-message');
+
+		sellCarForm.addEventListener('submit', (e) => {
+		e.preventDefault();
+
+		if (!sellCarForm.checkValidity()) {
+			sellCarForm.reportValidity();
+			return;
+		}
+
+		// Simulate form submission delay
+		formMessage.classList.remove('hidden');
+		formMessage.textContent = 'Submitting your car listing...';
+
+		setTimeout(() => {
+			formMessage.textContent = 'Thank you! Your car listing has been submitted successfully.';
+			sellCarForm.reset();
+		}, 1500);
+		});
+
+		// Contact form submission simulation
+		const contactForm = document.getElementById('contact-form');
+		const contactMessageStatus = document.getElementById('contact-message-status');
+
+		contactForm.addEventListener('submit', (e) => {
+		e.preventDefault();
+
+		if (!contactForm.checkValidity()) {
+			contactForm.reportValidity();
+			return;
+		}
+
+		contactMessageStatus.classList.remove('hidden');
+		contactMessageStatus.textContent = 'Sending your message...';
+
+		setTimeout(() => {
+			contactMessageStatus.textContent = 'Thank you for contacting us! We will get back to you shortly.';
+			contactForm.reset();
+		}, 1500);
+		});
+
+		// set up links
+		let links = document.querySelectorAll('[data-link]');
+
+		links.forEach(item => {
+			item.addEventListener("click",() => {
+				window.location.href = item.dataset.link;
+			})
+		})
+	</script>
+</body>
+</html>
